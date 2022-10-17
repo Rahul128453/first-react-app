@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.community {
+  background-color: rgb(255, 253, 253);
+  min-height: 150px;
+  border-radius: 11px 11px 0px 0px;
+  padding: 50px 50px;
+}
+
+#main {
+  background-color: #000;
+  padding: 50px;
+}
+
+.container {
+  border-radius: 11px;
+}
+
+.card-details {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-us {
+  background-color: rgba(85, 145, 142, 0.698);
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  min-height: 200px;
+  border-radius: 0px 0px 11px 0px;
+  padding: 50px;
+}
+
+.why-us p {
+  padding: 0px 20px;
+}
+
+.card {
+  width: 50%;
+  text-align: center;
+  background-color: rgb(15, 67, 66);
+  color: #fff;
+  min-height: 200px;
+  border-radius: 0px 0px 0px 11px;
+  padding: 50px;
+}
+
+.community-header {
+  text-align: center;
+}
+
+.community h2{
+  color: #20b1b1;
+  font-size: 32px;
+}
+
+.community h3{
+  color: #068754;
+  font-size: 26px;
+}
+
+.community p{
+  color: rgb(114, 109, 109);
+  font-size: 18px;
+}
+.btn{
+   margin-top: 50px;
+}
+
+.btn a:hover{
+   background-color: aqua;
+   color: #000;
+}
+
+.btn a{
+  background-color: #068754;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+
+}
